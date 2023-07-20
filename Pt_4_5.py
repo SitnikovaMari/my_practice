@@ -11,6 +11,8 @@ def find_ways(graph, start, end, way=[]):
             for new_way in ways:
                 all_ways.append(new_way)
     return all_ways
+
+
 graph = {
     'A': ['B', 'C'],
     'B': ['D', 'E'],
