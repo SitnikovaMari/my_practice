@@ -1,4 +1,6 @@
 import csv
+
+
 def is_valid_year(year):
     try:
         year = int(year)
@@ -8,6 +10,8 @@ def is_valid_year(year):
             return False
     except ValueError:
         return False
+
+
 fl = True
 while fl:
     start_year = input("Введите начальный год: ")
